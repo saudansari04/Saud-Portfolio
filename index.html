@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saud Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/830d46f5c3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" , class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#internships">Internships</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+
+            <div class="header-text">
+
+                <h2>Hey, I'm<br></h2>
+                <div id="typewriter-container"></div>
+                <p class="par">I extract valuable insights from data, enabling informed decision-making and contributing
+                    to the
+                    growth and success of the business.</p>
+            </div>
+            <div class="home__border">
+                <hr>
+            </div>
+        </div>
+    </div>
+
+    <!---------------about------------------>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/bg1.png" class="img1">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Welcome to my portfolio website! I am a dedicated and ambitious Computer Science student
+                        currently pursuing my Bachelor in Computer Science & Engineering at Lokmanya Tilak College of
+                        Engineering.
+                        With a strong educational foundation and a passion for programming, I am
+                        eager to showcase my skills and experience in this data driven world.
+
+                    </p>
+                  
+                    <p>
+                        As a quick learner, I am always eager to explore new opportunities that allow me to contribute,
+                        learn, and grow. I have developed a solid foundation in Data science & Data analysis, with
+                        proficiency in programming languages such as python, tableau, sql. Through hands-on
+                        projects and coursework, I have gained valuable experience in gaining insignts from the data.
+
+                    </p>
+                    <p>
+                        I believe that continuous learning is vital in a rapidly evolving field like computer science. I
+                        am committed to ongoing studies and future projects that will further expand my abilities and
+                        keep me at the forefront of emerging technologies. If you have an exciting opportunity that
+                        aligns with my skills and experience, I encourage you to reach out to me. I am confident in my
+                        ability to leverage my existing skill set and make meaningful contributions to your projects.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('exp')">Experience</p>
+                        <p class="tab-links" onclick="opentab('edu')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>python</span></li>
+                            <li><span>tableau</span></li>
+                            <li><span>sql</span></li>
+                            <li><span>html</span></li>
+                            <li><span>css</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="exp">
+                        <ul>
+                            <li><span>Data science Intern</span><br>Internsavy | July 2023</li>
+                            <li><span>Web developer Intern</span> <br>Internsavy | July 2023</li>
+                            <li><span>Data Analyst Intern</span><br>Excelerate | June 2023</li>
+                            <li><span>Machine learning Engineer Intern</span><br>YBI | January 2023</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="edu">
+                        <ul>
+                            <li><span>2021 - Present</span><br>B.E in Computer Science and Engineering(AI & ML)</li>
+                            <li><span>2018 - 2021</span><br>Diploma in Computer Engineering</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- -----------Internships ----------->
+
+    <div id="internships">
+        <div class="container">
+            <h1 class="sub-title">Internships</h1>
+            <div class="internships-list">
+                <div>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <h2>Data Science and Machine Learning</h2>
+                    <h3>(January)</h3>
+                    <p>Worked on data to find out key insights. Trained a ML model.</p>
+                    <a href="" target="_blank">Learn More...</a>
+                </div>
+                <div>
+                    <i class=" fa-solid fa-magnifying-glass-chart"></i>
+                    <h2>Data Analyst </h2>
+                    <h3>(June)</h3>
+                    <p>
+                        Worked on data from facebook ad about a campaign. Visualised and discontinued a campaign.
+                    </p>
+                    <a href="" target="_blank">Learn More...</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop-file"></i>
+                    <h2>Data Science</h2>
+                    <h3>(July)</h3>
+                    <p>I was given 2 datasets, and i was tasked to perform clustering, regression techniques.
+                    </p>
+                    <a href="https://github.com/saudansari04" target="_blank">Learn More...</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!---------------Projects------------------>
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="work-list">
+
+                <div class="work">
+                    <img src="images/1.png">
+                    <div class="layer">
+                        <h3>Netflix Dashboard</h3><a
+                            href="https://public.tableau.com/app/profile/saud.ansari/viz/Netflix_16861565161230/NETFLIX"
+                            target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+
+                <div class="work">
+                    <img src="images/ds.png">
+                    <div class="layer">
+                        <h3>Data Science and ML</h3><a href="https://github.com/saudansari04" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/2.png">
+                    <div class="layer">
+                        <h3>Walmart Dashboard</h3><a
+                            href="https://public.tableau.com/app/profile/saud.ansari/viz/walmart_16853600445810/Dashboard1"
+                            target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------Contact---------------- -->
+
+    <div>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+
+                        <h1 class="sub-title">Contact me</h1>
+                        <p><i class="fa-brands fa-google"></i>ansarimdsaud@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>9137864891</p>
+
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/saud-ansari-9208b3236/"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://twitter.com/SAUDANS30821863"><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+
+                        <a href="images/My CV.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" , name="Name" , placeholder="Your Name" required>
+                            <input type="email" , name="e-mail" , placeholder="Your email" required>
+                            <textarea name="Message" rows="6" , placeholder="Your Message"></textarea>
+                            <button type="submit" , class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @Saud Ansari</p>
+        </div>
+    </div>
+
+    <!----------------------------------->
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidem = document.getElementById("sidemenu");
+        function openmenu() {
+            sidem.style.right = "0px";
+        }
+        function closemenu() {
+            sidem.style.right = "-200px";
+        }
+    </script>
+
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxt1XdlPxpC6RmyQvwzYZ-762uVpjO5lctqxyzq7-1xqBeDemAqX3Df8yVy6xs-7knl2Q/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = " "
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+
+
+    <script>
+        // Function to create the typewriter effect
+        function typewriterEffect(element, words, loop, typeSpeed, deleteSpeed, cursor, cursorStyle) {
+            let currentIndex = 0;
+            let isDeleting = false;
+            let currentWord = '';
+            const typeDelay = typeSpeed;
+            const deleteDelay = deleteSpeed;
+            const cursorCharacter = cursor ? cursorStyle : '';
+
+            function type() {
+                const wordIndex = currentIndex % words.length;
+                const fullWord = words[wordIndex];
+
+                if (isDeleting) {
+                    currentWord = fullWord.substring(0, currentWord.length - 1);
+                } else {
+                    currentWord = fullWord.substring(0, currentWord.length + 1);
+                }
+
+                element.innerHTML = `<span>${currentWord}${cursorCharacter}</span>`;
+
+                let typingSpeed = isDeleting ? deleteDelay : typeDelay;
+
+                if (!isDeleting && currentWord === fullWord) {
+                    typingSpeed = 1000; // Delay after typing a word
+                    isDeleting = true;
+                } else if (isDeleting && currentWord === '') {
+                    isDeleting = false;
+                    currentIndex++;
+                    typingSpeed = 500; // Delay after deleting a word
+                }
+
+                setTimeout(type, typingSpeed);
+            }
+
+            // Start the typewriter effect
+            type();
+        }
+
+        // Call the typewriterEffect function with the desired parameters
+        const typewriterContainer = document.getElementById('typewriter-container');
+        const words = ["Saud", "सउद", "سعود"];
+        const loop = true;
+        const typeSpeed = 150;
+        const deleteSpeed = 100;
+        const cursor = true;
+        const cursorStyle = "_";
+
+        typewriterEffect(typewriterContainer, words, loop, typeSpeed, deleteSpeed, cursor, cursorStyle);
+    </script>
+
+
+</body>
+
+</html>
